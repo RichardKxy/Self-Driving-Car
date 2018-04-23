@@ -19,7 +19,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./my-output/Data_visualization.jpg "Visualization"
+[image1]: ./my-output/Data_Visualization.png "Visualization"
 [image2]: ./my-output/Model.png "Model"
 [image3]: ./my-test/00092.png "Traffic Sign 1"
 [image4]: ./my-test/00108.png "Traffic Sign 2"
@@ -52,7 +52,7 @@ signs data set:
 
 #### 2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
+Here is an exploratory visualization of the data set. 
 
 ![alt text][image1]
 
@@ -110,13 +110,13 @@ The reason that I chose them is that they have different shape, background and i
 
 Here are the results of the prediction:
 
-| Image			        |     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| 50 km/h	      		| 50 km/h					 					| 
-| Turn rigth ahead     	| Turn rigth ahead 								|
-| Children crossing		| Children crossing								|
-| No entry	      		| No entry						 				|
-| Ahead only			| Ahead only	      							|
+| Image			        | Prediction	      | 
+|:-----------------:|:-----------------:| 
+| 50 km/h	      		| 50 km/h					 	| 
+| Turn rigth ahead  | Turn rigth ahead 	|
+| Children crossing	| Children crossing	|
+| No entry	      	| No entry					|
+| Ahead only			  | Ahead only	      |
 
 
 The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. 
@@ -127,13 +127,13 @@ The code for making predictions on my final model is located in the 11th cell of
 
 For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
 
-| Image			        | Probability      					  |     Prediction	        								| 
-|:---------------------:|:-----------------------------------:|:-------------------------------------------------------:| 
-| 50 km/h	      		| 1.	6.2483925e-24	9.4525689e-26 | 50 km/h   			| 60 km/h			| Double curve	| 
-| Turn rigth ahead     	| 9.99	6.1852875e-04	3.3425578e-05 | Turn rigth ahead	| 30 km/h			| Stop			|
-| Children crossing		| 1.	9.5509330e-20	1.3031067e-23 | Children crossing	| Bicycles crossing	| Ahead only	|
-| No entry	      		| 1.	8.1153774e-24	2.8276170e-34 | No entry			| Traffic signals	| Stop          |
-| Ahead only			| 1.	2.0389628e-21	1.4550150e-28 | Ahead only     		| Turn left ahead	| No passing	|
+| Image			        | Probability      					            | Prediction	        								                  | 
+|:-----------------:|:-------------------------------------:|:-----------------------------------------------------:| 
+| 50 km/h	      		| 1.	  | 6.2483925e-24	| 9.4525689e-26 | 50 km/h   			  | 60 km/h			      | Double curve	| 
+| Turn rigth ahead  | 9.99	| 6.1852875e-04	| 3.3425578e-05 | Turn rigth ahead	| 30 km/h			      | Stop			    |
+| Children crossing	| 1.	  | 9.5509330e-20	| 1.3031067e-23 | Children crossing	| Bicycles crossing	| Ahead only	  |
+| No entry	      	| 1.	  | 8.1153774e-24	| 2.8276170e-34 | No entry			    | Traffic signals	  | Stop          |
+| Ahead only			  | 1.	  | 2.0389628e-21	| 1.4550150e-28 | Ahead only     		| Turn left ahead	  | No passing	  |
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
