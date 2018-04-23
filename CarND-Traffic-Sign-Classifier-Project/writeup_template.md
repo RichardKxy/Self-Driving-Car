@@ -35,7 +35,7 @@ The goals / steps of this project are the following:
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
-You're reading it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
+You're reading it! and here is a link to my [project code](https://github.com/Self-Driving-Car/CarND-Traffic-Sign-Classifier-Project/Traffic_Sign_Classifier.ipynb)
 
 ### Data Set Summary & Exploration
 
@@ -127,13 +127,13 @@ The code for making predictions on my final model is located in the 11th cell of
 
 For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
 
-| Image			        | Probability      					            | Prediction	        								                  | 
-|:-----------------:|:-------------------------------------:|:-----------------------------------------------------:| 
-| 50 km/h	      		| 1.	  | 6.2483925e-24	| 9.4525689e-26 | 50 km/h   			  | 60 km/h			      | Double curve	| 
-| Turn rigth ahead  | 9.99	| 6.1852875e-04	| 3.3425578e-05 | Turn rigth ahead	| 30 km/h			      | Stop			    |
-| Children crossing	| 1.	  | 9.5509330e-20	| 1.3031067e-23 | Children crossing	| Bicycles crossing	| Ahead only	  |
-| No entry	      	| 1.	  | 8.1153774e-24	| 2.8276170e-34 | No entry			    | Traffic signals	  | Stop          |
-| Ahead only			  | 1.	  | 2.0389628e-21	| 1.4550150e-28 | Ahead only     		| Turn left ahead	  | No passing	  |
+| Image			        | Probability1| Probability2  | Probability3  |	Prediction1	      | Prediction2 			|	Prediction3		|		                 
+|:-----------------:|:-----------:|:-------------:|:-------------:|:-----------------:|:-----------------:|:-------------:| 
+| 50 km/h	      		| 1.	        | 6.2483925e-24	| 9.4525689e-26 | 50 km/h   			  | 60 km/h			      | Double curve	| 
+| Turn rigth ahead  | 9.99	      | 6.1852875e-04	| 3.3425578e-05 | Turn rigth ahead	| 30 km/h			      | Stop			    |
+| Children crossing	| 1.	        | 9.5509330e-20	| 1.3031067e-23 | Children crossing	| Bicycles crossing	| Ahead only	  |
+| No entry	      	| 1.	        | 8.1153774e-24	| 2.8276170e-34 | No entry			    | Traffic signals	  | Stop          |
+| Ahead only			  | 1.	        | 2.0389628e-21	| 1.4550150e-28 | Ahead only     		| Turn left ahead	  | No passing	  |
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
