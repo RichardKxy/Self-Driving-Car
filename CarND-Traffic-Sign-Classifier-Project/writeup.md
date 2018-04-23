@@ -20,7 +20,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./my-output/Data_Visualization.png "Visualization"
-[image2]: ./my-output/Model.png "Model"
+[image2]: ./my-output/Model_Construction.png "Model"
 [image3]: ./my-test/00092.png "Traffic Sign 1"
 [image4]: ./my-test/00108.png "Traffic Sign 2"
 [image5]: ./my-test/00297.png "Traffic Sign 3"
